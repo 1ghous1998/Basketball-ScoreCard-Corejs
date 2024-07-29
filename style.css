@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+
+    background-color: darkblue;
+}
+.container
+{
+    padding: 100px 0 0 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.container .home
+{
+    width: 100%;
+    padding-left: 20%;
+}
+.container .home h2
+{
+    color: white;
+    font-size: 30px;
+}
+.container .home h1
+{
+    color: red;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    padding: 25px 0 0 40px;
+    margin: 10px 0 10px 0;
+}
+.container .home button
+{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+}
+.container .home #btn-reset
+{
+    width: 100px;
+    margin-top: 10px;
+}
+.container .guest
+{
+    width: 100%;
+}
+.container .guest h2
+{
+    color: white;
+    font-size: 30px;
+}
+.container .guest h1
+{
+    color: red;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    padding: 25px 0 0 40px;
+    margin: 10px 0 10px 0;
+}
+.container .guest button
+{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+}
+.container .guest #btn-reset
+{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.save-record
+{
+    margin: 50px 0 0 390px;
+    width: 420px;
+    padding-left: 10px;
+}
+.save-record button
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 50px;
+}
+
+.save-record p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    width: 422px;
+}

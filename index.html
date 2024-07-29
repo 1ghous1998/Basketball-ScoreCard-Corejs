@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h2>HOME</h2>
+            <h1 id="home-score">0</h1>
+            <button onclick="incrementOne()">+1</button>
+            <button onclick="incrementTwo()">+2</button>
+            <button onclick="incrementThree()">+3</button><br>
+            <button onclick="decrementOne()">-1</button>
+            <button onclick="decrementTwo()">-2</button>
+            <button onclick="decrementThree()">-3</button><br>
+            <button id="btn-reset" onclick="resetHome()">Reset</button>
+        </div>
+        <div class="guest">
+            <h2>GUEST</h2>
+            <h1 id="guest-score">0</h1>
+            <button onclick="guestOne()">+1</button>
+            <button onclick="guestTwo()">+2</button>
+            <button onclick="guestThree()">+3</button><br>
+            <button onclick="guestdOne()">-1</button>
+            <button onclick="guestdTwo()">-2</button>
+            <button onclick="guestdThree()">-3</button><br>
+            <button id="btn-reset" onclick="resetGuest()">Reset</button>
+        </div>
+    </div>
+    <div class="save-record">
+        <button onclick="saveRecord()">Save Records</button>
+        <p id="para-save"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
